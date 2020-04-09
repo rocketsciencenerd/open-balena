@@ -1,4 +1,22 @@
 - commits:
+    - subject: 'versions: Update service versions'
+      hash: 06b397c1ac67f1a82a576f9b4660d4497e854d36
+      body: |
+        Update open-balena-api to 0.33.2
+        Update open-balena-db to 4.1.0
+        Update balena-mdns-publisher to 1.7.4
+        Update open-balena-registry to 2.13.5
+        Update open-balena-s3 to 2.9.4
+        Update open-balena-vpn to 9.13.0
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Rich Bayliss <rich@balena.io>
+        signed-off-by: Rich Bayliss <rich@balena.io>
+      author: Rich Bayliss
+  version: 2.1.0
+  date: 2020-04-09T18:37:13.796Z
+- commits:
     - subject: Added units to haproxy.cfg default timeouts
       hash: de0293563f32961ff756df63d096af0fb2203d12
       body: >
